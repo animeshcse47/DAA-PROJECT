@@ -1,0 +1,163 @@
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 1
+Enter University ID: 101
+Enter University Code: 522502
+Enter University Name: srm
+Enter University Address: neerukonda
+Enter University Email: xyz@email
+Enter University Website: xyz.com
+University created successfully!
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 3
+
+List of Universities:
+ID: 101
+Code: 522502
+Name: srm
+Address: neerukonda
+Email: xyz@email
+Website: xyz.com
+
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 1
+Enter University ID: 102
+Enter University Code: 522503
+Enter University Name: mit
+Enter University Address: mangalagiri
+Enter University Email: abc@gmail.com
+Enter University Website: abc.com
+University created successfully!
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 3
+
+List of Universities:
+ID: 101
+Code: 522502
+Name: srm
+Address: neerukonda
+Email: xyz@email
+Website: xyz.com
+
+ID: 102
+Code: 522503
+Name: mit
+Address: mangalagiri
+Email: abc@gmail.com
+Website: abc.com
+
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 4
+Enter University ID to delete: 102
+University deleted successfully!
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 3
+
+List of Universities:
+ID: 101
+Code: 522502
+Name: srm
+Address: neerukonda
+Email: xyz@email
+Website: xyz.com
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 5
+Enter University Code to search (Linear Search): 522502
+ID: 101
+Code: 522502
+Name: srm
+Address: neerukonda
+Email: xyz@email
+Website: xyz.com
+
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 
+1. Create University
+2. Update University
+3. Retrieve Universities
+4. Delete University
+5. Linear Search by Code
+6. Binary Search by Code
+7. Insertion Sort by Code
+8. Selection Sort by Code
+9. Exit
+Enter your choice: 7
+Universities sorted by code (Insertion Sort)!
+
+List of Universities:
+ID: 101
+Code: 522502
+Name: srm
+Address: neerukonda
+Email: xyz@email
+Website: xyz.com
+
