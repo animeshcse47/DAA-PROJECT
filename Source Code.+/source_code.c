@@ -14,11 +14,10 @@ typedef struct {
     char univ_website[50];
 } University;
 
-// Global array to store university data and a counter
 University universities[MAX];
 int university_count = 0;
 
-// File name for storing the details
+// File name 
 const char* FILE_NAME = "university_setting.txt";
 
 // Function declarations
@@ -32,7 +31,7 @@ void AP23110011096_UNIVERSITY_SELECTION_SORT();
 void AP23110011096_UNIVERSITY_BINARY_SEARCH();
 void AP23110011096_UNIVERSITY_LINEAR_SEARCH();
 
-// Function to load data from the file into the universities array
+// Function to load data 
 void load_from_file() {
     FILE *file = fopen(FILE_NAME, "r");
     if (file == NULL) {
@@ -66,7 +65,7 @@ void AP23110011096_UNIVERSITY_storing() {
     fclose(file);
 }
 
-// Function to create a university record
+// create function
 void AP23110011096_UNIVERSITY_create() {
     if (university_count >= MAX) {
         printf("University list is full!\n");
@@ -92,7 +91,7 @@ void AP23110011096_UNIVERSITY_create() {
     printf("University created successfully!\n");
 }
 
-// Function to update a university record
+// updation
 void AP23110011096_UNIVERSITY_update() {
     int id;
     printf("Enter University ID to update: ");
@@ -119,7 +118,7 @@ void AP23110011096_UNIVERSITY_update() {
     printf("University with ID %d not found.\n", id);
 }
 
-// Function to retrieve all university records
+// retrieve function
 void AP23110011096_UNIVERSITY_retrieve() {
     printf("\nList of Universities:\n");
     for (int i = 0; i < university_count; i++) {
@@ -130,7 +129,7 @@ void AP23110011096_UNIVERSITY_retrieve() {
     }
 }
 
-// Function to delete a university record
+// deletion
 void AP23110011096_UNIVERSITY_delete() {
     int id;
     printf("Enter University ID to delete: ");
@@ -150,7 +149,7 @@ void AP23110011096_UNIVERSITY_delete() {
     printf("University with ID %d not found.\n", id);
 }
 
-// Insertion sort by university code
+// Insertion sort code
 void AP23110011096_UNIVERSITY_INSERTION_SORT() {
     for (int i = 1; i < university_count; i++) {
         University key = universities[i];
@@ -165,7 +164,7 @@ void AP23110011096_UNIVERSITY_INSERTION_SORT() {
     AP23110011096_UNIVERSITY_retrieve();
 }
 
-// Selection sort by university code
+// Selection sort code
 void AP23110011096_UNIVERSITY_SELECTION_SORT() {
     for (int i = 0; i < university_count - 1; i++) {
         int min_idx = i;
@@ -182,7 +181,7 @@ void AP23110011096_UNIVERSITY_SELECTION_SORT() {
     AP23110011096_UNIVERSITY_retrieve();
 }
 
-// Binary search for university by code
+// Binary search code
 void AP23110011096_UNIVERSITY_BINARY_SEARCH() {
     char code[10];
     printf("Enter University Code to search (Binary Search): ");
@@ -210,7 +209,7 @@ void AP23110011096_UNIVERSITY_BINARY_SEARCH() {
     printf("University with code %s not found.\n", code);
 }
 
-// Linear search for university by code
+// Linear search code
 void AP23110011096_UNIVERSITY_LINEAR_SEARCH() {
     char code[10];
     printf("Enter University Code to search (Linear Search): ");
